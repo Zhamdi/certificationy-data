@@ -3,10 +3,10 @@ questions:
     -
         question: 'What is the correct way to render a ESI tag using HTML?'
         answers:
-            - {value: <include:esi src="http://..." />, correct: false}
-            - {value: <esi:include src="http://..." />, correct: true}
-            - {value: <include src="http://..." />,     correct: false}
-            - {value: <esi src="http://..." />,         correct: false}
+            - {value: '<include:esi src="http://..." />', correct: false}
+            - {value: '<esi:include src="http://..." />', correct: true}
+            - {value: '<include src="http://..." />',     correct: false}
+            - {value: '<esi src="http://..." />',         correct: false}
     -
         question: 'What is the Twig function to render an ESI?'
         answers:
